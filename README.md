@@ -46,7 +46,7 @@ pip install torch pandas numpy matplotlib requests beautifulsoup4
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/inho9899/LottoNumberPredictor.git
 cd lotto-predictor
 ```
 
