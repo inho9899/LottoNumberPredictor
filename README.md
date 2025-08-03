@@ -2,9 +2,13 @@
 
 A PyTorch-based reinforcement learning model that predicts lottery numbers using historical data and LSTM neural networks with the REINFORCE algorithm.
 
+<br>
+
 ## 📋 Project Overview
 
 This project trains a policy model to generate remaining lotto numbers `[n2 ~ n7]` based on input number `n1`, using historical lotto data from all past draws. The model uses sequential decision-making to predict the most likely combinations while preventing duplicate number selection.
+
+<br>
 
 ## 🔧 Tech Stack
 
@@ -15,6 +19,8 @@ This project trains a policy model to generate remaining lotto numbers `[n2 ~ n7
 - **Data Analysis**: Pandas, NumPy, Matplotlib
 - **Special Techniques**: Action Masking for duplicate-free number selection
 
+<br>
+
 ## 🎯 Key Features
 
 - ✅ **Real Data Learning**: Training based on actual lotto winning number data
@@ -22,6 +28,8 @@ This project trains a policy model to generate remaining lotto numbers `[n2 ~ n7
 - ✅ **Duplicate Prevention**: Action masking mechanism to prevent duplicate numbers
 - ✅ **Stochastic Sampling**: Temperature-controlled sampling for diversity
 - ✅ **Performance Analysis**: Comprehensive testing and visualization tools
+
+<br>
 
 ## 📊 Model Architecture
 
@@ -33,6 +41,8 @@ Input (n1) → Embedding → LSTM → FC Layer → Softmax → Action (next numb
 1. **Embedding Layer**: Transforms lotto numbers (1-45) into high-dimensional vectors
 2. **LSTM Layer**: Learns sequence patterns for next number prediction
 3. **Fully Connected Layer**: Converts LSTM output to 45-class probabilities
+
+<br>
 
 ## 🚀 Getting Started
 
@@ -70,6 +80,8 @@ result = generate_lotto_numbers(trained_policy, n1=25)
 print(f"Generated numbers: {result}")
 ```
 
+<br>
+
 ## 📁 Project Structure
 
 ```
@@ -80,6 +92,8 @@ lotto/
 ├── lotto_policy_model.pth   # Trained model weights (generated)
 └── requirements.txt         # Python dependencies
 ```
+
+<br>
 
 ## 🧠 How It Works
 
@@ -103,6 +117,8 @@ lotto/
 - Uses action masking to prevent duplicates
 - Temperature scaling controls randomness vs. exploitation
 
+<br>
+
 ## 📊 Performance Metrics
 
 The model is evaluated on:
@@ -110,11 +126,15 @@ The model is evaluated on:
 - **Diversity**: Variation in generated combinations
 - **Consistency**: Stability of results for same inputs
 
+<br>
+
 ## 🔬 Model Limitations
 
 - **Probabilistic Nature**: Lotto is inherently random, limiting prediction accuracy
 - **Data Bias**: Historical patterns may not reflect future draws
 - **Reward Design**: Simple matching reward may not capture full lotto dynamics
+
+<br>
 
 ## 🚀 Future Improvements
 
@@ -133,12 +153,16 @@ The model is evaluated on:
 - Add statistical features (consecutiveness, odd-even ratios)
 - Implement real-time data updates
 
+<br>
+
 ## 📈 Results
 
 The trained model achieves:
 - Average reward of X.XX per episode
 - XX% accuracy on validation data
 - Diverse number generation with temperature scaling
+
+<br>
 
 ## 🤝 Contributing
 
@@ -148,9 +172,13 @@ The trained model achieves:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+<br>
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<br>
 
 ## ⚠️ Disclaimer
 
@@ -160,6 +188,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Lottery outcomes are random and unpredictable
 - Gambling can be addictive - please gamble responsibly
 - The authors are not responsible for any losses incurred
+
+<br>
 
 ## 🎓 Educational Value
 
