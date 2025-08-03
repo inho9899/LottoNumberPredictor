@@ -169,7 +169,3 @@ This project serves as an excellent learning resource for:
 - **Web Scraping**: Data collection from web sources
 - **Deep Learning**: PyTorch model development and training
 
-
----
-
-*Happy Learning! 🎯*
