@@ -155,31 +155,6 @@ The model is evaluated on:
 
 <br>
 
-## 📈 Results
-
-The trained model achieves:
-- Average reward of X.XX per episode
-- XX% accuracy on validation data
-- Diverse number generation with temperature scaling
-
-<br>
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<br>
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-<br>
-
 ## ⚠️ Disclaimer
 
 **Important**: This model was created for educational and research purposes only. 
